@@ -1,5 +1,5 @@
 REQUIRED = ("income", "debt_ratio", "credit_months",)
-WEIGHTS = {"income": 0.002, "debt_ratio": -4.0, "credit_months": 0.01}
+WEIGHTS = {"income": 0.00002, "debt_ratio": -6.0, "credit_months": 0.01}
 INTERCEPT = -1.5
 THRESHOLD = 0.0
 
