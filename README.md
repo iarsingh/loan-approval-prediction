@@ -1,5 +1,12 @@
 # Loan Approval Prediction
 
+## Overview
+
+A loan approval scorer for a data science exercise. `POST /score` combines income, debt ratio and months of credit history into a linear score, and a score at or above 0 is approved. It does not call a credit bureau. Tests cover the scoring rule, and a `/v1` ops API adds workspaces, tenant isolation, job approval and audit records.
+
+- **Built with:** Python, pytest, GitHub Actions
+- **Scope:** Data science lab with a fixed linear rule; it calls no hosted model and makes no real lending decisions.
+
 <!-- project-guide:start -->
 ## Project guide
 
